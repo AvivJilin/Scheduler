@@ -44,13 +44,12 @@ make
 ```
 
 This will compile the source files and link them together to create the final executable scheduler_test.out.
-Usage
+## Usage
 
-    Include the scheduler.h header in your project.
-    Create a scheduler instance using SchedulerCreate() to manage tasks.
-    Add tasks to the scheduler using SchedulerAddTask() and specify the task's interval, operation function, and associated parameters.
-    Start the scheduler by calling SchedulerRun() to begin task execution.
-    Stop the scheduler with SchedulerStop() when task execution is complete.
+1. Create a scheduler instance using `SchedulerCreate()` to manage tasks.
+2. Add tasks to the scheduler using `SchedulerAddTask()` and specify the task's interval, operation function, and associated parameters.
+3. Start the scheduler by calling `SchedulerRun()` to begin task execution.
+4. Stop the scheduler with `SchedulerStop()` when task execution is complete.
 
 Valgrind for Memory Leak Detection
 
